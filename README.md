@@ -22,3 +22,13 @@ https://user-images.githubusercontent.com/88465484/202869019-6f6f2f87-d432-4126-
 
 
 https://user-images.githubusercontent.com/88465484/202869028-456fa95f-6536-4666-a0b5-76dccb778fdf.mov
+
+## Sources
+Tech With Tim: https://www.youtube.com/@TechWithTim
+
+## Contact
+Madeline Donley
+
+email: mads.donley@gmail.com
+
+phone: 720-614-1655
