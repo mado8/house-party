@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-from .credentials import REDIRECT_URI, CLIENT_SECRET, CLIENT_ID
 from rest_framework.views import APIView
 from requests import Request, post
 from rest_framework import status
@@ -7,6 +6,15 @@ from rest_framework.response import Response
 from .util import *
 from api.models import Room
 from .models import Vote
+
+# get enviornment variables
+from dotenv import load_dotenv
+load_dotenv()
+
+import os
+CLIENT_ID = os.environ.get("CLIENT_ID")
+CLIENT_SECRET = os.environ.get("CLIENT_SECRET")
+REDIRECT_URI = os.environ.get('REDIRECT_URI')
 
 
 class AuthURL(APIView):
