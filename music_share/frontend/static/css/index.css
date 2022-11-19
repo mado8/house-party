@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    /* color: white */
+    background-color: #1a1818;
+    color: #fff
+}
+
+#main {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .textfield {
+    background-color: #fff;
+    color: '#fff'
+} */
+
+div.MuiInput-underline:before, div.MuiInput-underline::after {
+    border-bottom: 1px solid white;
+}
+
+div.MuiInput-underline:before {
+    border-bottom: 1px solid #fff;
+}
+
+label.MuiFormLabel-root {
+    color: #fff;
+}
+
+div.MuiInputBase-root {
+    color: #fff;
+}
+
+input.MuiInputBase-input::placeholder {
+    color: #fff;
+}
+
+p.MuiFormHelperText-root {
+    color: #fff;
+    font-size: 1em;
+}
+
+span.MuiRadio-root {
+    color: #fff
+}
